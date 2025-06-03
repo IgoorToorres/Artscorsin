@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section,
+header,
+main,
+footer,
+nav,
+div,
+img,
+h1,
+h2,
+h3,
+p,
+a,
+button {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#carImage {
+    pointer-events: none;
+    transform: scaleX(-1);
+}
+
+#carTrail {
+    height: 6px;
+}
